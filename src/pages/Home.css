@@ -1,0 +1,21 @@
+.hero {
+  display: flex;
+}
+.hero-text {
+  flex-grow: 2;
+}
+.profile {
+  width: 50%;
+}
+.profile img {
+  width: 100%;
+}
+
+.heading {
+  color: var(--heading);
+  font-size: 2.5rem;
+}
+.sub-heading {
+  color: var(--sub-heading);
+  font-size: 2rem;
+}

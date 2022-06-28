@@ -1,11 +1,12 @@
 import React from 'react';
+import './Home.css'
 import profileImg from '../docs/profile.jpg'
 
 function Home() {
   return (
     <main>
       <div className="hero">
-        <div>
+        <div className="hero-text">
           <h2 className="heading">Kurtis Grant</h2>
           <h3 className="sub-heading">Software Developer in Ottawa, Canada</h3>
         </div>
