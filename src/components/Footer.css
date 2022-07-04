@@ -1,0 +1,26 @@
+.footer {
+  margin: 40px 0 10px;
+}
+.footer hr {
+  opacity: 0.1;
+  margin: 40px 0;
+  border: 0.05px solid black;
+}
+.footer-cols {
+  display: flex;
+  width: 100%;
+}
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+.footer-row > a {
+  margin: 5px;
+  padding: 5px;
+}
+.footer-end {
+  margin: 40px 0;
+  opacity: 0.4;
+  text-align: center;
+}
