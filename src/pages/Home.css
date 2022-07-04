@@ -1,21 +1,33 @@
 .hero {
   display: flex;
+  flex-direction: row;
 }
 .hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-grow: 2;
+
 }
 .profile {
-  width: 50%;
 }
 .profile img {
-  width: 100%;
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 .heading {
   color: var(--heading);
-  font-size: 2.5rem;
+  font-size: 3rem;
+  letter-spacing: -0.04rem;
+  margin: 10px 0;
 }
 .sub-heading {
   color: var(--sub-heading);
-  font-size: 2rem;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.04rem;
+  margin: 10px 0;
 }
