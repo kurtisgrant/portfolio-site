@@ -9,7 +9,7 @@ function Home() {
         <div className="hero-text">
           <div>
             <h2 className="heading">Kurtis Grant</h2>
-            <h3 className="sub-heading">Software Developer in Ottawa, Canada</h3>
+            <h3 className="sub-heading">Full Stack Developer from Ottawa,&nbsp;ON</h3>
           </div>
         </div>
         <div className="profile">
