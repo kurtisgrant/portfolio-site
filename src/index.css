@@ -3,6 +3,8 @@
   --sub-heading: #4b5563;
   --body-text: #374151;
   --background: #fff;
+  --btn-color: #eee;
+  --btn-hover: #ddd;
   --link-color: cornflowerblue;
 }
 
@@ -11,6 +13,8 @@
   --sub-heading: #9ca3af;
   --body-text: #9ca3af;
   --background: #000;
+  --btn-color: #333;
+  --btn-hover: #444;
   --link-color: rgb(88, 157, 225);
 }
 
