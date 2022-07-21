@@ -11,3 +11,7 @@ a.btn {
 a.btn:hover {
   background-color: var(--btn-hover);
 }
+
+a.btn.dark-toggle {
+  justify-self: right;
+}

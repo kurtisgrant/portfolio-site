@@ -4,13 +4,13 @@ import "./Navbar.css"
 import Button from './Button'
 import DarkToggle from './DarkToggle'
 
-function Navbar() {
+function Navbar({toggleTheme, darkMode}) {
   return (
     <div className="navbar">
       <nav>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/projects">Projects</NavLink>
-        <DarkToggle />
+        <DarkToggle toggleTheme={toggleTheme} isDark={darkMode} />
       </nav>
     </div>
   )
