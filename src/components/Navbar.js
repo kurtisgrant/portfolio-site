@@ -10,7 +10,6 @@ function Navbar() {
       <nav>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/projects">Projects</NavLink>
-        <Button href="https://google.com">DM</Button>
         <DarkToggle />
       </nav>
     </div>
