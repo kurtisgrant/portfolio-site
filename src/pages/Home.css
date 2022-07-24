@@ -17,15 +17,12 @@
   justify-content: center;
   margin-right: 40px;
 }
-.profile {
-}
 .profile img {
   width: 260px;
   height: 260px;
   object-fit: cover;
   border-radius: 30px;
 }
-
 .heading {
   color: var(--heading);
   font-size: 3rem;
