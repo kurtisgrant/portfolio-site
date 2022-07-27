@@ -1,0 +1,18 @@
+
+
+.project-card {
+  padding: 0.6rem;
+  border-radius: 5px;
+  background-color: var(--background);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  background-color: var(--background-offset);
+}
+
+.project-card a {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}

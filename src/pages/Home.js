@@ -4,12 +4,12 @@ import profileImg from '../docs/profile.jpg';
 
 function Home() {
   return (
-    <main>
+    <main className="home-page">
       <div className="hero">
         <div className="hero-text">
           <div>
-            <h2 className="heading">Kurtis Grant</h2>
-            <h3 className="sub-heading">Full Stack Developer from Ottawa,&nbsp;ON</h3>
+            <h1 className="heading">Kurtis Grant</h1>
+            <h2 className="sub-heading">Full Stack Developer from Ottawa,&nbsp;ON</h2>
           </div>
         </div>
         <div className="profile">

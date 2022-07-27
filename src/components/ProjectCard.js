@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './ProjectCard.css'
 
-function ProjectCard() {
+function ProjectCard(props) {
   return (
-    <div>ProjectCard</div>
+    <div className="project-card">
+      <Link to={props.slug}>{props.title}</Link > {props.children}
+    </div>
   )
 }
 

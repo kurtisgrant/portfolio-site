@@ -3,24 +3,29 @@
   --sub-heading: #4b5563;
   --body-text: #374151;
   --background: #fff;
+  --background-offset: rgb(235, 241, 252);
   --btn-color: #eee;
   --btn-hover: #ddd;
   --link-color: cornflowerblue;
+  --link-hover: rgb(8, 114, 228);
 }
 
 [data-theme="dark"] {
   --heading: #fff;
   --sub-heading: #9ca3af;
-  --body-text: #9ca3af;
+  --body-text: #b1b9c6;
   --background: #000;
+  --background-offset: rgb(19, 33, 46);
   --btn-color: #333;
   --btn-hover: #444;
   --link-color: rgb(88, 157, 225);
+  --link-hover: rgb(8, 114, 228);
 }
 
 body {
   background-color: var(--background);
   color: var(--body-text);
+  transition: background-color 0.3s ease-in-out;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -36,5 +41,9 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover);
 }
 

@@ -1,36 +1,36 @@
-.hero {
+.home-page .hero {
   display: flex;
   flex-direction: row;
 }
 @media (max-width: 720px) {
-  .hero {
+  .home-page .hero {
     flex-direction: column;
   }
-  .profile {
+  .home-page .profile {
     text-align: center;
     margin: 15px 0;
   }
 }
-.hero-text {
+.home-page .hero-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-right: 40px;
 }
-.profile img {
+.home-page .profile img {
   width: 260px;
   height: 260px;
   object-fit: cover;
   border-radius: 30px;
 }
-.heading {
+.home-page .heading {
   color: var(--heading);
   font-size: 3rem;
   line-height: 2.4rem;
   letter-spacing: -0.04rem;
   margin: 10px 0;
 }
-.sub-heading {
+.home-page .sub-heading {
   color: var(--sub-heading);
   font-size: 2.4rem;
   line-height: 2.4rem;
