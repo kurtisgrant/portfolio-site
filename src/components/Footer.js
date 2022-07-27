@@ -16,7 +16,7 @@ function Footer() {
           <a href="https://linkedin.com/in/kurtis-grant/" target="_blank">LinkedIn</a>
         </div>
       </div>
-      <div className="footer-end">Website designed by Kurtis Grant © 2022</div>
+      <div className="footer-end">Website designed by Kurtis Grant ©2022</div>
     </div>
   );
 }
