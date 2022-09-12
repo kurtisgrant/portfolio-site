@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Thordle from './projects/Thordle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,8 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
-          <Route path="Projects" element={<Projects />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="projects/thordle" element={<Thordle />} />
         </Route>
       </Routes>
     </BrowserRouter>

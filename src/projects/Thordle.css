@@ -1,0 +1,40 @@
+/* .project-page .heading {
+  color: var(--heading);
+  font-size: 2.5rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.04rem;
+  margin: 20px 0;
+} */
+
+.project-page .heading {
+  color: var(--heading);
+  font-size: 3rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.04rem;
+  margin: 10px 0;
+}
+.project-page .sub-heading {
+  color: var(--sub-heading);
+  font-size: 2.2rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.04rem;
+  margin: 10px 0;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag-container span {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  display: inline-block;
+  background: var(--background-offset);
+  color: var(--heading);
+  border-radius: 1rem;
+  padding: 0 8px;
+  margin: .2rem;
+  word-break: keep-all;
+}
