@@ -6,6 +6,26 @@
   margin: 20px 0;
 } */
 
+.project-page .hero {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  margin-bottom: 1rem;
+}
+.project-page .links {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+@media (max-width: 720px) {
+  .project-page .hero {
+    grid-template-columns: 1fr;
+  }
+  .project-page .links {
+    align-self: center;
+    flex-direction: row;
+  }
+}
 .project-page .heading {
   color: var(--heading);
   font-size: 3rem;
@@ -37,4 +57,8 @@
   padding: 0 8px;
   margin: .2rem;
   word-break: keep-all;
+}
+
+.project-page .btn {
+  font-size: 0.8rem;
 }

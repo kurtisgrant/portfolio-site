@@ -1,11 +1,12 @@
 a.btn {
   background-color: var(--btn-color);
-  width: 25px;
+  /* width: 25px; */
+  gap: 10px;
   height: 25px;
   border-radius: 5px;
   padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 a.btn:hover {
