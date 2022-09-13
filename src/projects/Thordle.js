@@ -10,7 +10,7 @@ function Thordle() {
       <div className="hero">
         <div className="hero-text">
           <h1 className="heading">Thordle</h1>
-          <h2 className="sub-heading">An ~exhilarating~ daily word puzzle.</h2>
+          <h2 className="sub-heading">An ~exhilarating~ daily word puzzle</h2>
         </div>
         <div className="links">
           <Button href="https://thordle.com">{<><ExternalLink /> thordle.com</>}</Button>

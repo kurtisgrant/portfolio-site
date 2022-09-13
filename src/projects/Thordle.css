@@ -17,6 +17,9 @@
   flex-direction: column;
   margin: 0 1rem;
 }
+.project-page .hero-text {
+  margin-bottom: 1rem;
+}
 @media (max-width: 720px) {
   .project-page .hero {
     grid-template-columns: 1fr;
